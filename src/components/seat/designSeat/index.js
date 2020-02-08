@@ -281,7 +281,7 @@ class Design extends React.Component {
 
 		return (
 			<div style={{ margin: 20 }}>
-				<p style={{ backgroundColor: '#333', color: 'white' }}>
+				<p style={{ backgroundColor: '#333', color: 'white', padding: 20 }}>
 					做了个设置座位位置组件，可能antd的checkbox有动画的原因导致大量使用时候会卡死，就自己封了一个玩玩，第一次用js的二维数组，莫名感觉c的二维数组比这好用多了，做完后才发现js也可以用arr[][]的方式。。。之前查的时候居然没查到有点蠢了。。。
 				</p>
 

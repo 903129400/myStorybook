@@ -24,7 +24,7 @@ class Tables extends React.Component {
 		const { title, content } = this.state;
 		return (
 			<div style={{ width: '800px', margin: '20px' }}>
-				<p style={{ backgroundColor: '#333', color: 'white' }}> 简单使用了一下braftEditor</p>
+				<p style={{ backgroundColor: '#333', color: 'white', padding: 20 }}>简单使用了一下braftEditor</p>
 				<div style={{ display: 'flex', marginTop: '20px' }}>
 					标题：
 					{this.state.changeState ? (

@@ -203,7 +203,7 @@ class Demo extends Component {
 		if (!data.title || !data.key) return <div>数据不存在</div>;
 		return (
 			<div style={{ margin: 20 }}>
-				<p style={{ backgroundColor: '#333', color: 'white' }}>
+				<p style={{ backgroundColor: '#333', color: 'white', padding: 20 }}>
 					利用前面几个插件简单实现了个board编辑页面，暂时只使用了文本内容，后续添加富文本等插件，未完待续
 				</p>
 				<div style={{ display: 'flex', marginTop: 20, width: '100%' }}>

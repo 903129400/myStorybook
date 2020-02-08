@@ -39,7 +39,7 @@ class Design extends React.Component {
 		console.log('zongshu', sum);
 		return (
 			<div style={{ margin: 20 }}>
-				<p style={{ backgroundColor: '#333', color: 'white' }}> 数据来自丁香园，武汉加油，中国加油！</p>
+				<p style={{ backgroundColor: '#333', color: 'white', padding: 20 }}> 数据来自丁香园，武汉加油，中国加油！</p>
 
 				<div style={{ display: 'flex' }}>
 					<div style={{ width: '100%' }}>

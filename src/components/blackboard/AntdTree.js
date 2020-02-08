@@ -72,7 +72,7 @@ class Demo extends Component {
 		if (!data.title || !data.key) return <div>数据不存在</div>;
 		return (
 			<div style={{ margin: 20 }}>
-				<p style={{ backgroundColor: '#333', color: 'white' }}>
+				<p style={{ backgroundColor: '#333', color: 'white', padding: 20 }}>
 					{' '}
 					大半夜自己实现antd Tree组件 的onDrop函数拖拽与合并，瞟了一眼示例函数理解太麻烦自己写了，再一次感受到js对象引用的方便之处，爽翻！
 				</p>

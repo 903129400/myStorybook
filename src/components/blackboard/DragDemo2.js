@@ -62,7 +62,7 @@ class App extends Component {
 					onDragStart={this.onDragStart}
 					onDragUpdate={this.onDragUpdate}
 				>
-					<p style={{ backgroundColor: '#333', color: 'white' }}>
+					<p style={{ backgroundColor: '#333', color: 'white', padding: 20 }}>
 						react-beautiful-dnd组件（熟悉拖拽组件嵌套，没设置DragEnd事件,drop区域3中，嵌套drop区域拖拽插入时下移的部分会很丑，使用时需要加以限制，拖拽的组件最好不要在嵌套区域直接拖拽）
 					</p>
 					<div style={{ display: 'flex', height: '100%', position: ' absolute ' }}>

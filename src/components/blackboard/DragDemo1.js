@@ -79,7 +79,9 @@ class App extends Component {
 					onDragStart={this.onDragStart}
 					onDragUpdate={this.onDragUpdate}
 				>
-					<p style={{ backgroundColor: '#333', color: 'white' }}>react-beautiful-dnd简单练习demo1 </p>
+					<p style={{ backgroundColor: '#333', color: 'white', padding: 20 }}>
+						react-beautiful-dnd简单练习demo1{' '}
+					</p>
 					<p>DragDropContext</p>
 					<Droppable droppableId="droppable" style={{ width: '600px' }}>
 						{(provided, snapshot) => {
