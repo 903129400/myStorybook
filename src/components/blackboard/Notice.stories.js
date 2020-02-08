@@ -1,0 +1,13 @@
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
+import AddNotice from './Notice';
+import DragDemo1 from './DragDemo1';
+import DragDemo2 from './DragDemo2';
+import AntdTree from './AntdTree';
+import Board from './Board';
+storiesOf('Blackboard', module).add('Plugin-NoticeDemo', () => <AddNotice />);
+storiesOf('Blackboard', module).add('Plugin-DragDemo1', () => <DragDemo1 />);
+storiesOf('Blackboard', module).add('Plugin-DragDemo2', () => <DragDemo2 />);
+storiesOf('Blackboard', module).add('Plugin-AntdTreeDemo', () => <AntdTree />);
+storiesOf('Blackboard', module).add('Combination-Board', () => <Board />);

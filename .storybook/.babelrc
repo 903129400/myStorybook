@@ -1,0 +1,29 @@
+{
+    "presets": [
+        [
+            "@babel/env",
+            {
+                // "targets": {
+                //     "chrome": "66"
+                // },
+                "corejs": {
+                    "version": 2
+                },
+                "useBuiltIns": "usage",
+                "modules": "commonjs"
+            }
+        ],
+        "@babel/react"
+    ],
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "libraryDirectory": "lib",
+                "style": "css"
+            },
+            "ant"
+        ],
+    ]
+}

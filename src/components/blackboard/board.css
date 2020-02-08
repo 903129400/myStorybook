@@ -1,0 +1,10 @@
+.menuItemContent {
+	border-bottom: 1px solid white;
+	padding: 8px 16px;
+	width: 128px;
+	height: 36px;
+}
+.menuItem :hover {
+	background-color: #999;
+	color: black;
+}
