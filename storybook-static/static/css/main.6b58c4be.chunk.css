@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.menuItemContent {
+	border-bottom: 1px solid white;
+	padding: 8px 16px;
+	width: 128px;
+	height: 36px;
+}
+.menuItem :hover {
+	background-color: #999;
+	color: black;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.canvasDiv {
+	background: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/4QMZaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjVEQTMzOEEzQzUwMzExRTZCNjQxQTgzOEFCN0YxNUY0IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjVEQTMzOEEyQzUwMzExRTZCNjQxQTgzOEFCN0YxNUY0IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgV2luZG93cyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSIyOTEwQ0ZFMjNBRTg1NDdBQjc1NEIyMTk4M0Q5REJFNCIgc3RSZWY6ZG9jdW1lbnRJRD0iMjkxMENGRTIzQUU4NTQ3QUI3NTRCMjE5ODNEOURCRTQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgICAgICAgICAgIDAwMDAwMDAwMDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wAARCAA9AD0DAREAAhEBAxEB/8QAcwABAQEBAQAAAAAAAAAAAAAABAUDAAoBAQAAAAAAAAAAAAAAAAAAAAAQAAECAwUDBwwCAwAAAAAAAAEDBAARAiESExQFMTO0QSJUdJTUFVKSI1Nzs9M0NXWV1VFxYbEkEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD38QBXG7HWGnGJwCoAy2+a+3PCu4BMAar5xHqzj3rWATAT0/qr37fpnE6tAIzKfkuOyOvgwB13CZTAFK+/bG1s5FlLpM7SiLZCwbSbBbAIzKfkuOyOvgwB1XCeI25q/NWJM2rkH5ZyLAUp1GdWwTO0/wAwCMyn5Ljsjr4MAcuE8wkbq8gg4pIyrmfOUbkEAo3iDdt5B/sEZlPyXHZHXwYCem4T8UeG6vaw00Syrmcw51UzIwZgc6wmw8mwwFiAK43Y6w04xOAVAGW3zX254V3AJgDVfOI9Wce9awCYCen9Ve/b9M4nVoBGMp0Rx5zXvMAddVTDE2q1Ix2xmam20OkzKxwTOo2DkBNplbAIxlOiOPOa95gDqqqFRqcssCFiZXm06jlnIuiTggG2dshIG2dkAjGU6I485r3mAPUrXmUjllp4LgCm82mRiNyagcwKZCVts5n+4BGMp0Rx5zXvMBPTWU8UeHLLTyOm03b7aYAc6tKo/wDRdlVOzls/qAsQBXG7HWGnGJwCoAy2+a+3PCu4BMAar5xHqzj3rWATAT0/qr37fpnE6tAIvOvUt+0qd0gDuKnOGJpIj07bY4UJmHSRpEi1psNVk+QW27IBF516lv2lTukAdWpziNppITCxlJwoQTlnIkSWwIEpmdtsh/mARedepb9pU7pAYVVOcyl6JCeCvIZiuRGI3mScrzSLLJWz22QG9516lv2lTukBPTqc+KPPRI3shpkxmFJCnM6tIg5W0kznZsG2AsQBXG7HWGnGJwCoAy2+a+3PCu4BMAar5xHqzj3rWATAT0/qr37fpnE6tAdh6r03T/xjn9tAYLJ6mKKcR2xqGM3AFOnuKDeLhIJ1EnU6waaa5EiU6hMTBtAb4eq9N0/8Y5/bQGCiep32952xNRWITI05zSKasBwTVWKtUqNdJTFQkDSZkGchIhvh6r03T/xjn9tAYFPU8wmC7Y4mEsaahpzkUCkVIX6aqPFCSaiRdN4ASNhnMBvh6r03T/xjn9tABTT1LxN2A7Y38hpxqqOnuDQaS41S5TTR4mDTVSRVM3jMEWCUyH//2Q==) repeat;
+}
+
+/* .checkBox {
+	margin-right: 10px;
+	width: 24px;
+	height: 16px;
+} */
+.checkBox input[type='checkbox'] {
+	width: 20px;
+	height: 20px;
+
+	margin-right: 6px;
+	margin-left: 8px;
+	-webkit-appearance: none;
+	border: 1px solid #c9c9c9;
+	border-radius: 2px;
+	outline: none;
+}
+
+.checkBox input[type='checkbox']:checked {
+	width: 20px;
+	height: 20px;
+
+	-webkit-appearance: none;
+	border: 1px solid #c9c9c9;
+	border-radius: 2px;
+	outline: none;
+	background-color: #1296db;
+	background-image: url(static/media/checked.35e3f6fb.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.checkBox input[type='checkbox']:indeterminate {
+	width: 20px;
+	height: 20px;
+	background-color: #1296db;
+	-webkit-appearance: none;
+	border: 1px solid #c9c9c9;
+	border-radius: 2px;
+	outline: none;
+	background-image: url(static/media/indeterminate.7528333f.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-transform: rotate(90deg);
+	        transform: rotate(90deg);
+}
+
+
+/*# sourceMappingURL=main.6b58c4be.chunk.css.map*/

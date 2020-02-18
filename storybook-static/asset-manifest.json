@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b58c4be.chunk.css",
+    "main.js": "/main.0dd7cd51721706e2f0aa.bundle.js",
+    "main.css.map": "/static/css/main.6b58c4be.chunk.css.map",
+    "main.js.map": "/main.0dd7cd51721706e2f0aa.bundle.js.map",
+    "runtime~main.js": "/runtime~main.0dd7cd51721706e2f0aa.bundle.js",
+    "runtime~main.js.map": "/runtime~main.0dd7cd51721706e2f0aa.bundle.js.map",
+    "vendors~main.css": "/static/css/vendors~main.8f231346.chunk.css",
+    "vendors~main.js": "/vendors~main.0dd7cd51721706e2f0aa.bundle.js",
+    "vendors~main.css.map": "/static/css/vendors~main.8f231346.chunk.css.map",
+    "vendors~main.js.map": "/vendors~main.0dd7cd51721706e2f0aa.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.ee915d1237aa9dedac240119c7b36833.js": "/precache-manifest.ee915d1237aa9dedac240119c7b36833.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/antd.less": "/static/media/antd.daf6bfe7.less",
+    "static/media/index.css": "/static/media/indeterminate.7528333f.svg",
+    "vendors~main.0dd7cd51721706e2f0aa.bundle.js.LICENSE": "/vendors~main.0dd7cd51721706e2f0aa.bundle.js.LICENSE"
+  },
+  "entrypoints": [
+    "runtime~main.0dd7cd51721706e2f0aa.bundle.js",
+    "static/css/vendors~main.8f231346.chunk.css",
+    "vendors~main.0dd7cd51721706e2f0aa.bundle.js",
+    "static/css/main.6b58c4be.chunk.css",
+    "main.0dd7cd51721706e2f0aa.bundle.js"
+  ]
+}

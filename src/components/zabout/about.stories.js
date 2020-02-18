@@ -4,4 +4,4 @@ import { action } from '@storybook/addon-actions';
 import { Me } from './index';
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs';
 
-storiesOf('*About', module).add('Me', () => <Me />);
+storiesOf('About', module).add('Me', () => <Me />);

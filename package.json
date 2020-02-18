@@ -17,6 +17,7 @@
 		"babel-plugin-react-css-modules": "^5.2.6",
 		"babel-plugin-react-transform": "^3.0.0",
 		"braft-editor": "^2.3.8",
+		"fabric": "^4.0.0-beta.7",
 		"node-sass": "^4.13.1",
 		"postcss-loader": "^3.0.0",
 		"react": "^16.12.0",
