@@ -33,14 +33,23 @@ const data = {
 				drags: [
 					{
 						type: 'text',
+						css: {
+							//这里写组件用户自定义样式
+						},
 						content: '这是一段可拖拽文字1'
 					},
 					{
 						type: 'text',
+						css: {
+							//这里写组件用户自定义样式
+						},
 						content: '这是一段可拖拽文字2'
 					},
 					{
 						type: 'text',
+						css: {
+							//这里写组件用户自定义样式
+						},
 						content: '这是一段可拖拽文字3'
 					}
 				],

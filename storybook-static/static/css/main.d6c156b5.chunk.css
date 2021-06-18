@@ -62,7 +62,8 @@ code {
 	border-radius: 2px;
 	outline: none;
 	background-color: #1296db;
-	background-image: url(static/media/checked.35e3f6fb.svg);
+	background-image: url(static/media/checked.987dc64e.svg);
+
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -74,7 +75,7 @@ code {
 	border: 1px solid #c9c9c9;
 	border-radius: 2px;
 	outline: none;
-	background-image: url(static/media/indeterminate.7528333f.svg);
+	background-image: url(static/media/indeterminate.55fe4200.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-size: 100% 100%;
@@ -84,4 +85,4 @@ code {
 }
 
 
-/*# sourceMappingURL=main.6b58c4be.chunk.css.map*/
+/*# sourceMappingURL=main.d6c156b5.chunk.css.map*/

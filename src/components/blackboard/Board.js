@@ -69,7 +69,7 @@ class Demo extends Component {
 		this.setState({ data: {} });
 		this.setState({ data });
 	};
-	mapDrag = (data, key, layer) => {
+	mapDrag = (data, key, layer) => {		//左边主体代码
 		//layer:层数+4，用来改变hi的大小
 		return (
 			<div key={key}>
@@ -134,7 +134,7 @@ class Demo extends Component {
 			</div>
 		);
 	};
-	mapTree = (data, key, fatherData = '') => {
+	mapTree = (data, key, fatherData = '') => {				//右边树形图代码
 		return (
 			<TreeNode
 				title={

@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Card, Input, InputNumber, Tooltip, Affix, Button, Popconfirm } from 'antd';
 import './index.css';
-
 class IndeterminateCheckbox extends React.Component {
 	componentDidMount() {
 		if (this.props.indeterminate === true) {
@@ -23,6 +22,7 @@ class IndeterminateCheckbox extends React.Component {
 
 	render() {
 		const { indeterminate, type, ...props } = this.props;
+		
 		return <input type="checkbox" {...props} />;
 	}
 }

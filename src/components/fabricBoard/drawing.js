@@ -222,6 +222,7 @@ export const canvasOn = ({ canvas, canvasType, color, graphColor, drawWidth, set
 	canvas.off('mouse:move');
 	canvas.off('selection:created');
 	if (canvasType === 'pencil') {
+	
 		canvas.on('mouse:up', function(options) {
 			if (JSON.stringify(canvas.toJSON()) !== history.arr[history.pointer]) {
 				if (history.arr.length > history.pointer) {
